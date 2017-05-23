@@ -32,6 +32,8 @@ public class StudentServiceImpl implements StudentService {
 		ResultSet studentsList;
 		try {
 			studentsList = dbConnector.query("SELECT * FROM students");
+				
+			//modificacion para  push
 
 			while (studentsList.next()) {
 				System.out.println("\nRoll No: " + studentsList.getInt("rollNo"));
