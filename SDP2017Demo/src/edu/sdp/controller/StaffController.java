@@ -20,7 +20,7 @@ import edu.sdp.services.impl.StudentServiceImpl;
  */
 public class StaffController {
 
-	// The scanner object is not created but it is assigned with the same object
+	// The scanner oklknlbject is not created but it is assigned with the same object
 	// passed from the main class.
 	private Scanner consoleScanner;
 
